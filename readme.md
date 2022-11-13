@@ -145,6 +145,7 @@ Finally, restart nginx after modifying the server configuration file.
 
 `service nginx restart`
 
+
 ## Final Thoughts
 
 Once redirection is configured and functioning, ensure your C2 servers only allow ingress from the redirector and your trusted IPs (VPN, office ranges, etc).
@@ -160,3 +161,8 @@ Consider adding additional redirector protections using GeoIP restrictions (mod_
 - [Adam Brown - Resilient Red Team HTTPS Redirection Using Nginx](https://coffeegist.com/security/resilient-red-team-https-redirection-using-nginx/)
 
 - [Apache - Apache mod_rewrite Documentation](http://httpd.apache.org/docs/current/mod/mod_rewrite.html)
+
+
+
+Todo:
+![image](https://user-images.githubusercontent.com/103268912/201519837-6b61c632-c286-49b5-bace-0a242a95b920.png)
